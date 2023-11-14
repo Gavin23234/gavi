@@ -1,3 +1,20 @@
 header {
-    background-image: url(7082673_23964.jpg)
+    text-decoration: none;
+    font-size: 20px;
 }
+
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: radial-gradient(black, white, rgb(37, 37, 139));
+    display:flexbox;
+    justify-content: center;
+    flex-direction: row;
+    align-content:last baseline;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
