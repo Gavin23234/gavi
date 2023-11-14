@@ -1,15 +1,22 @@
 header {
     text-decoration: none;
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: last-baseline;
+
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-content: last-baseline;
 }
 
 html {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: radial-gradient(black, white, rgb(37, 37, 139));
-    display:flexbox;
-    justify-content: center;
-    flex-direction: row;
-    align-content:last baseline;
+    
 }
 
 .center {
@@ -18,3 +25,26 @@ html {
     margin-right: auto;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: last baseline;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-content: last-baseline;
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+}
