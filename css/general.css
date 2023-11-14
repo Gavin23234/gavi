@@ -4,18 +4,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-content: last-baseline;
+    color: white;
 
 }
 
-.top {
-    display: flex;
-    justify-content: center;
-    align-content: last-baseline;
-}
 
 html {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: radial-gradient(black, white, rgb(37, 37, 139));
+    background-image: radial-gradient(black, rgb(149, 123, 123));
     
 }
 
@@ -25,16 +21,22 @@ html {
     margin-right: auto;
 }
 
+img {
+    width: 500px
+
+}
+
 h1 {
     display: flex;
     justify-content: center;
     align-content: last baseline;
     text-decoration: none;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 
 }
 
@@ -43,8 +45,19 @@ p {
     justify-content: center;
     align-content: last-baseline;
     text-decoration: none;
+    color:white;
+
 }
 
 ul {
     text-decoration: none;
+    color: white;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-content: last-baseline;
+    text-decoration: none;
+    color:white;
 }
